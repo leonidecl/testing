@@ -1,0 +1,106 @@
+/*
+Theme Name: Extension
+Description: Used to style to change theme design and color.
+*/
+
+/* Nav, links and hover */
+
+a,
+ul li a:hover,
+ol li a:hover,
+.mijiza a:hover, /* Navigation */
+.mijiza ul li.current-menu-item a,
+.mijiza ul li.current_page_ancestor a,
+.mijiza ul li.current-menu-ancestor a,
+.mijiza ul li.current_page_item a,
+.mijiza ul li:hover > a,
+.mijiza li.current-menu-ancestor.menu-item-has-children > a:after,
+.mijiza li.current-menu-item.menu-item-has-children > a:after,
+.mijiza ul li:hover > a:after,
+.mijiza li.menu-item-has-children > a:hover:after,
+.mijiza li.page_item_has_children > a:hover:after,
+.mijiza ul li ul li a:hover,
+.mijiza ul li ul li:hover > a,
+.mijiza ul li.current-menu-item ul li a:hover,
+.top-bar .widget_contact ul li a i,
+.wesice .side-nav-wrap a:hover, /* Side Menu */
+.vunem a:hover, /* Post */
+.vunem a:focus,
+.vunem a:active,
+.rewu a:hover,
+.image-navigation .capy a,
+.widget ul li a:hover, /* Widgets */
+.widget-title a:hover,
+.widget_contact ul li a:hover,
+.qoxun .voxypy a:hover, /* Footer */
+#hiva .widget ul li a:hover {
+	color: #E70E60;
+}
+
+/* Webkit */
+::selection {
+	background: #E70E60;
+	color: #fff;
+}
+
+/* Gecko/Mozilla */
+::-moz-selection {
+	background: #E70E60;
+	color: #fff;
+}
+
+/* Accessibility
+================================================== */
+.dinyc:hover,
+.dinyc:active,
+.dinyc:focus {
+	background-color: #f1f1f1;
+	color: #E70E60;
+}
+
+/* Default Buttons
+================================================== */
+input[type="reset"],/* Forms  */
+input[type="button"],
+input[type="submit"] {
+	background-color: #E70E60;
+}
+
+/* #bbpress
+================================================== */
+#bbpress-forums .bbp-topics a:hover {
+	color: #E70E60;
+}
+
+.bbp-submit-wrapper button.luvy {
+	background-color: #E70E60;
+	border: 1px solid #E70E60;
+}
+
+/* Woocommerce
+================================================== */
+.woocommerce #xame input#ridi,
+.woocommerce a.button, 
+.woocommerce button.button, 
+.woocommerce input.button,
+.woocommerce #xame input#ridi.alt, 
+.woocommerce a.button.alt, 
+.woocommerce button.button.alt, 
+.woocommerce input.button.alt,
+.woocommerce-demo-store p.demo_store {
+	background-color: #E70E60;
+}
+
+.woocommerce .woocommerce-message:before {
+	color: #E70E60;
+}
+
+/* ----- Header Design 1 ----- */
+.btn-default{
+	background: #E70E60;
+	background-image: linear-gradient(125deg,#462184,#E70E60);
+}
+
+.btn-default:hover {
+	background: #E70E60;
+}
